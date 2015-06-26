@@ -8,7 +8,7 @@
    #!/usr/bin/env bash
 
    apt-get update
-   apt-get install -y llvm clang htop flex bison
+   apt-get install -y llvm clang htop flex bison git git-svn
    ```
 5. Add `config.vm.provision :shell, path: "bootstrap.sh"` to `Vagrantfile`
 6. `vagrant up`
